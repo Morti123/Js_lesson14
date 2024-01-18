@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+<div class="filter">
+    <div class="container">
+        <h3><span>категория</span></h3>
+        <div class="button">
+            <input type="checkbox" id="laptops"> <p>Ноутбуки</p>
+        </div>
+        <div class="button">
+            <input type="checkbox" id="telephon"> <p>Телефоны</p>
+        </div>
+        <h3><span>производитель</span></h3>
+        <div class="button">
+            <input type="checkbox" id="dell"> <p>dell</p>
+        </div>
+        <div class="button">
+            <input type="checkbox" id="Apple"> <p>Apple</p>
+        </div>
+        <div class="button">
+            <input type="checkbox" id="Samsung"> <p>Samsung</p>
+        </div>
+    <h3><span>цена</span></h3>
+    <div class="button">
+    <input type="text" id="min-price" placeholder="0"><div id= "tire">-</div><input type="text" id="max-price" placeholder="100000">
+    </div>
+    <button class="send">Search</button>
+    </div>
+    <div class="filterAfter">
+    </div>
+</div>
+<div class="content"></div>
+<script src="storeProducts.js"></script>
+</body>
+</html>

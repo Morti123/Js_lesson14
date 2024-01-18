@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.ustroistva{ 
+  width: 19vw; 
+  height: 22vw; 
+  border: gray 1px solid; 
+  margin-top: 10px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around; 
+  border-radius: 5%;
+  } 
+  .kartina{ 
+    width: 14vw; 
+    height: 10vw; 
+    object-fit:contain; 
+    margin-left: auto;
+    margin-right: auto
+    } 
+    .content{ 
+      display: flex; 
+      flex-wrap: wrap; 
+   justify-content: space-around;
+    } 
+.price{
+  margin-left: 16vw;
+  font-size: 1.2rem;
+}
+.filter{
+  width: 20vw;
+  height: 100vh;
+  background-color: black;
+  position:fixed;
+  left: -20vw;
+  transition: 1s;
+}
+.filterAfter{
+  width: 0.3vw;
+  height: 100vh;
+  background-color: rgb(255, 0, 0);
+  position:absolute;
+  left: 20vw;
+  cursor: pointer;
+}
+.filterAnimation{
+  transition: 1s;
+  left: 0;
+}
+
+.container{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding-top: 5vw;
+  margin-left: 1vw;
+}
+.container > h3{
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+.container span{
+  border-bottom: 1px solid white;
+}
+.container p{
+  color: white;
+}
+.button{
+  display: flex;
+}
+#min-price{ 
+  border: 0; 
+  border-radius: 5px; 
+border-top-right-radius: 0; 
+border-bottom-right-radius: 0; 
+width: 5vw; 
+ 
+} 
+#max-price{ 
+  border: 0; 
+  border-radius: 5px; 
+border-top-left-radius: 0; 
+border-bottom-left-radius: 0; 
+width: 5vw; 
+} 
+#tire{ 
+  background-color: rgb(177, 177, 177); 
+  border: gray solid 1px; 
+  width: 1vw; 
+  text-align: center; 
+}
+.send{
+  border: 0;
+  color: white;
+  background-color: rgb(255,42, 42);
+  width: 3.5vw;
+  height: 2vw;
+  border-radius: 5px;
+  margin-left: 8vw;
+  margin-top: 1vw;
+}
